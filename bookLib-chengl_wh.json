@@ -1,0 +1,36 @@
+{
+  ".vs": {
+    "name": ".vs",
+    "desc": "VS2019编辑器配置文件",
+    "path": "./.vs"
+  },
+  ".vscode": {
+    "name": ".vscode",
+    "desc": ".vscode编辑器配置文件 - c语言",
+    "path": "./.vscode"
+  },
+  "VS2019": {
+    "name": "VS2019",
+    "desc": "VS2019 项目文件 - c语言",
+    "path": "./VS2019"
+  },
+  "VSCode": {
+    "name": "VSCode",
+    "desc": "VSCode 项目文件 - c语言",
+    "path": "./VSCode"
+  },
+  "C-book": {
+    "name": "C-book",
+    "desc": "C-book 书本源码 仓库 - c语言",
+    "path": "./C-book",
+    "children": [
+      {
+        "name": "CProgramming",
+        "bookName": "C程序设计（第五版）",
+        "autho": "谭浩强-全国高等院校计算机基础教育研究会荣誉会长，《中国高等院校计算机基础教育课程体系规划教材》编审委员会主任",
+        "desc": "CProgramming 书本源码 - c语言",
+        "path": "./C-book/CProgramming"
+      }
+    ]
+  }
+}
