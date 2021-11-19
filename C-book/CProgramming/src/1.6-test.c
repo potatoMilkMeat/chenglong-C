@@ -3,6 +3,9 @@
 
 int main()
 {
+  int c = 97;
+  int d = c>96;
+  printf("%c%d%d\n", c, c, d);
   // 字符串写法
   char a[] = "*****";
   char s1[] = "  ";
