@@ -7,5 +7,6 @@
     "*.vue": "vue",
     "random": "c",
     "cstdlib": "c"
-  }
+  },
+  "C_Cpp.errorSquiggles": "Disabled"
 }
