@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <stdint.h>
 #include <complex.h>
+#include <stdbool.h>
 
 int main(void)
 {
@@ -58,6 +59,9 @@ int main(void)
     // cimag        取虚部
     // creal        取实部
 
+    // #include <stdbool.h> 支持bool
+    _Bool bbb = false;
+    printf("%d\n", bbb);
 
     return 0;
 }
