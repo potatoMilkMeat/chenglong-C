@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="00-main.cpp" />
     <ClCompile Include="01-hello world.cpp" />
     <ClCompile Include="02-const.cpp" />
     <ClCompile Include="03-array.cpp" />
@@ -152,10 +153,14 @@
     <ClCompile Include="11-全局友元.cpp" />
     <ClCompile Include="12-类做友元.cpp" />
     <ClCompile Include="13-成员函数做友元.cpp" />
+    <ClCompile Include="14-运算符重载-加号-左移-自增.cpp" />
+    <ClCompile Include="15-运算符重载-赋值.cpp" />
+    <ClCompile Include="16-运算符重载-比较.cpp" />
     <ClCompile Include="Circle.cpp" />
     <ClCompile Include="Point.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="00-main.h" />
     <ClInclude Include="Circle.h" />
     <ClInclude Include="Point.h" />
   </ItemGroup>

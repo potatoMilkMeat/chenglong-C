@@ -60,12 +60,27 @@
     <ClCompile Include="13-成员函数做友元.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="14-运算符重载-加号-左移-自增.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="15-运算符重载-赋值.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="16-运算符重载-比较.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="00-main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Point.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Circle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="00-main.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

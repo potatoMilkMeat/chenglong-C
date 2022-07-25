@@ -44,7 +44,7 @@ void test13_01() {
 	cout << "visit02³ÉÔ±º¯Êý  sizeof GoodFriend13 " << sizeof GoodFriend13 << endl;
 }
 
-int main() {
+int main13() {
 	test13_01();
 	system("pause");
 	return 0;
