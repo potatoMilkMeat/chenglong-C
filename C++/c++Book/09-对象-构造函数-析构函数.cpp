@@ -2,31 +2,26 @@
 using namespace std;
 
 // 对象的初始化和清理
-
-class Person
-{
+class Base09{
 public:
-	Person();
-	~Person();
+	Base09() { cout << "Base09 构造函数" << endl; }
+	~Base09() { cout << "Base09 析构函数" << endl; }
+};
 
-private:
 
+class Person09{
+public:
+	Person09();
+	~Person09();
+	Base09 m_base;
 };
 
 // 有参数，可以重载
-Person::Person() {
+Person09::Person09() {
 	cout << "Person 构造函数" << endl;
 }
-Person::~Person() {
+Person09::~Person09() {
 	cout << "Person 析构函数" << endl;
 }
 
-void test0000() { Person p; }
-
-int main09() {
-	//test0000();
-	Person p;
-	
-	system("pause");
-	return 0;
-}
+void test09() { Person09 p; }

@@ -72,6 +72,27 @@
     <ClCompile Include="00-main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="17-运算符重载-函数调用-仿函数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="18-继承-初探.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="19-继承-开发人员命令提示工具查看对象模型.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="20-继承-继承类的构造和析构顺序.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="21-继承-同名成员的访问.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="22-继承-多继承-同名.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="23-继承-菱形继承.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Point.h">

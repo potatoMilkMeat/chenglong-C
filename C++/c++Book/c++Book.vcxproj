@@ -156,6 +156,13 @@
     <ClCompile Include="14-运算符重载-加号-左移-自增.cpp" />
     <ClCompile Include="15-运算符重载-赋值.cpp" />
     <ClCompile Include="16-运算符重载-比较.cpp" />
+    <ClCompile Include="17-运算符重载-函数调用-仿函数.cpp" />
+    <ClCompile Include="18-继承-初探.cpp" />
+    <ClCompile Include="19-继承-开发人员命令提示工具查看对象模型.cpp" />
+    <ClCompile Include="20-继承-继承类的构造和析构顺序.cpp" />
+    <ClCompile Include="21-继承-同名成员的访问.cpp" />
+    <ClCompile Include="22-继承-多继承-同名.cpp" />
+    <ClCompile Include="23-继承-菱形继承.cpp" />
     <ClCompile Include="Circle.cpp" />
     <ClCompile Include="Point.cpp" />
   </ItemGroup>
