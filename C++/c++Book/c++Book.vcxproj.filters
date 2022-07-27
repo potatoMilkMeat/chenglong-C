@@ -93,6 +93,21 @@
     <ClCompile Include="23-继承-菱形继承.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="24-多态-计算器实现.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="25-多态-纯虚函数和抽象类 - 制作饮品.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="26-多态-虚析构和纯虚析构.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="27-多态-电脑组装案例.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="28-二进制读取写入.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Point.h">

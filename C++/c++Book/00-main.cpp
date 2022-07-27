@@ -40,6 +40,23 @@ int main() {
 	//cout << "\n **** \t第23-继承-菱形继承" << endl;
 	//test23();
 
+	//cout << "\n **** \t第24-多态-计算器实现.cpp" << endl;
+	//test24();
+
+	//cout << "\n **** \t第25-多态-纯虚函数和抽象类 - 制作饮品.cpp" << endl;
+	//test25();
+
+	//cout << "\n **** \t第26-多态-虚析构和纯虚析构.cpp" << endl;
+	//test26();
+
+	//cout << "\n **** \t第27-多态-电脑组装案例.cpp" << endl;
+	//test27();
+
+	//cout << "\n **** \t第28-二进制读取写入.cpp" << endl;
+	//test28();
+
+	cout << "\n **** \t第" << endl;
+
 	cout << "\n **** \t第" << endl;
 
 	cout << "\n **** \t第" << endl;

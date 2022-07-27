@@ -9,12 +9,13 @@ public:
 };
 
 
-class Person09{
+class Person09 {
 public:
 	Person09();
 	~Person09();
 	Base09 m_base;
 };
+
 
 // 有参数，可以重载
 Person09::Person09() {
@@ -25,3 +26,4 @@ Person09::~Person09() {
 }
 
 void test09() { Person09 p; }
+
