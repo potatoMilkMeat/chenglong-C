@@ -41,5 +41,20 @@
     <ClCompile Include="34-类模板.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="35-类模板和函数模板的区别.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="36-类模板的成员函数创建时机.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="37-类模板做函数参数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="38-类模板和继承.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="39-类模板成员函数类外实现.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

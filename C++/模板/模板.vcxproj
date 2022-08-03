@@ -143,11 +143,16 @@
     <ClInclude Include="public.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="36-类模板的成员函数创建时机.cpp" />
     <ClCompile Include="30-模板.cpp" />
     <ClCompile Include="31-函数模板-排序.cpp" />
     <ClCompile Include="32-函数模板和普通函数调用规则.cpp" />
     <ClCompile Include="33-模板的局限性.cpp" />
     <ClCompile Include="34-类模板.cpp" />
+    <ClCompile Include="35-类模板和函数模板的区别.cpp" />
+    <ClCompile Include="37-类模板做函数参数.cpp" />
+    <ClCompile Include="38-类模板和继承.cpp" />
+    <ClCompile Include="39-类模板成员函数类外实现.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -27,6 +27,27 @@ int main() {
 	//cout << "\n **** \t第34-类模板" << endl;
 	//test34();
 
+	//cout << "\n **** \t第35-类模板和函数模板的区别" << endl;
+	//test35();
+
+	//cout << "\n **** \t第36-类模板的成员函数创建时机" << endl;
+	//test36();
+
+	//cout << "\n **** \t第37-类模板做函数参数" << endl;
+	//test37();
+
+	//cout << "\n **** \t第38-类模板和继承" << endl;
+	//test38();
+
+	//cout << "\n **** \t第39-类模板成员函数类外实现" << endl;
+	//test39();
+
+	cout << "\n **** \t第" << endl;
+
+	cout << "\n **** \t第" << endl;
+
+	cout << "\n **** \t第" << endl;
+
 	cout << "\n **** \t第" << endl;
 
 	cout << "\n **** \t第" << endl;
