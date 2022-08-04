@@ -1,4 +1,5 @@
-#include "main.h"
+//#include "main.h"
+#include "main-stl.h"
 
 /*
 	泛型编程
@@ -42,11 +43,19 @@ int main() {
 	//cout << "\n **** \t第39-类模板成员函数类外实现" << endl;
 	//test39();
 
-	cout << "\n **** \t第" << endl;
+	//cout << "\n **** \t第41-类模板和友元" << endl;
+	//test41();
 
-	cout << "\n **** \t第" << endl;
+	//cout << "\n **** \t第41.5-指针和堆" << endl;
+	//test_P();
 
-	cout << "\n **** \t第" << endl;
+	//cout << "\n **** \t第42-模板案例 - 数组类封装" << endl;
+	//test42();
+
+	
+
+	cout << "\n **** \t第50-STL基础" << endl;
+	test50();
 
 	cout << "\n **** \t第" << endl;
 

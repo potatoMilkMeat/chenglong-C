@@ -139,7 +139,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="main-stl.h" />
     <ClInclude Include="main.h" />
+    <ClInclude Include="MyArray.hpp" />
     <ClInclude Include="public.h" />
   </ItemGroup>
   <ItemGroup>
@@ -153,6 +155,11 @@
     <ClCompile Include="37-类模板做函数参数.cpp" />
     <ClCompile Include="38-类模板和继承.cpp" />
     <ClCompile Include="39-类模板成员函数类外实现.cpp" />
+    <ClCompile Include="40-类模板份文件编写.cpp" />
+    <ClCompile Include="41-类模板和友元.cpp" />
+    <ClCompile Include="41.5-指针和堆.cpp" />
+    <ClCompile Include="42-模板案例 - 数组类封装.cpp" />
+    <ClCompile Include="50-STL基础.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
