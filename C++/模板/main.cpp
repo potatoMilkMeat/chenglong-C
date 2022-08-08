@@ -54,8 +54,18 @@ int main() {
 
 	
 
-	cout << "\n **** \t第50-STL基础" << endl;
-	test50();
+	//cout << "\n **** \t第50-STL - vector数组" << endl;
+	//test50();
+
+	//cout << "\n **** \t第51-vector - 存放自定义数据" << endl;
+	//test51();
+
+	cout << "\n **** \t第52-vector容器 嵌套容器" << endl;
+	test52();
+
+	cout << "\n **** \t第" << endl;
+
+	cout << "\n **** \t第" << endl;
 
 	cout << "\n **** \t第" << endl;
 

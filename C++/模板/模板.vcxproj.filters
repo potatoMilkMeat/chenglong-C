@@ -74,7 +74,13 @@
     <ClCompile Include="41.5-指针和堆.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="50-STL基础.cpp">
+    <ClCompile Include="50-STL - vector数组.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="51-vector - 存放自定义数据.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="52-vector容器 嵌套容器.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
