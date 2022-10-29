@@ -162,6 +162,7 @@
     <ClCompile Include="50-STL - vector数组.cpp" />
     <ClCompile Include="51-vector - 存放自定义数据.cpp" />
     <ClCompile Include="52-vector容器 嵌套容器.cpp" />
+    <ClCompile Include="53-string容器  - 189, 189.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

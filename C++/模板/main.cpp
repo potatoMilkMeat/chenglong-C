@@ -60,10 +60,11 @@ int main() {
 	//cout << "\n **** \t第51-vector - 存放自定义数据" << endl;
 	//test51();
 
-	cout << "\n **** \t第52-vector容器 嵌套容器" << endl;
-	test52();
+	//cout << "\n **** \t第52-vector容器 嵌套容器" << endl;
+	//test52();
 
-	cout << "\n **** \t第" << endl;
+	cout << "\n **** \t第53-string容器  - 189, 189" << endl;
+	test53();
 
 	cout << "\n **** \t第" << endl;
 
