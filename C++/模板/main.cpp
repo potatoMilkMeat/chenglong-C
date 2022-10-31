@@ -63,12 +63,14 @@ int main() {
 	//cout << "\n **** \tµÚ52-vectorÈİÆ÷ Ç¶Ì×ÈİÆ÷" << endl;
 	//test52();
 
-	cout << "\n **** \tµÚ53-stringÈİÆ÷  - 189, 189" << endl;
-	test53();
+	//cout << "\n **** \tµÚ53-stringÈİÆ÷  - 189, 196" << endl;
+	//test53();
 
-	cout << "\n **** \tµÚ" << endl;
+	//cout << "\n **** \tµÚ54-vectorÈİÆ÷-197-203" << endl;
+	//test54();
 
-	cout << "\n **** \tµÚ" << endl;
+	cout << "\n **** \tµÚ55-dequeÈİÆ÷ - 204-209" << endl;
+	test55();
 
 	cout << "\n **** \tµÚ" << endl;
 

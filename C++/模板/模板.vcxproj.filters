@@ -83,7 +83,13 @@
     <ClCompile Include="52-vector容器 嵌套容器.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="53-string容器  - 189, 189.cpp">
+    <ClCompile Include="53-string容器  - 189, 196.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="54-vector容器-197-203.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="55-deque容器 - 204-209.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

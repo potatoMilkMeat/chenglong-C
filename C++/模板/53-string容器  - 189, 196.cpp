@@ -1,6 +1,6 @@
 #include "public.h"
 
-// stringµÄ¹¹Ôìº¯Êý
+// stringåˆ›å»º
 void newString() {
 	string s1;
 	const char* str = "hello world!";
@@ -15,7 +15,7 @@ void newString() {
 	cout << "s4 = " << s4 << endl;
 }
 
-// stringµÄ¸³Öµ²Ù×÷
+// stringèµ‹å€¼
 void assignString() {
 	string str1;
 	str1 = "hello world!";
@@ -46,10 +46,10 @@ void assignString() {
 	cout << "str7 = " << str7 << endl;
 }
 
-// stringµÄÆ´½Ó
+// stringè¿½åŠ 
 void appendString() {
-	string str1 = "ÎÒ";
-	str1 += "°®¶ÁÊé";
+	string str1 = "ï¿½ï¿½";
+	str1 += "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½";
 	cout << "str1 = " << str1 << endl;
 
 	str1 += ',';
@@ -58,8 +58,8 @@ void appendString() {
 	str1 += str1;
 	cout << "str1 = " << str1 << endl;
 
-	string str2 = "Äã";
-	str2.append("ÊÇ¹¤ÈË");
+	string str2 = "ï¿½ï¿½";
+	str2.append("ï¿½Ç¹ï¿½ï¿½ï¿½");
 	cout << "str2 = " << str2 << endl;
 
 	str2.append(":12345. 9123456", 8);
@@ -68,28 +68,28 @@ void appendString() {
 	str2.append(str2);
 	cout << "str2 = " << str2 << endl;
 
-	str2.append(str2, 0, 2); // ¿ªÊ¼Î»ÖÃ£¬½ØÈ¡³¤¶È£¬ÖÐÎÄÕ¼2¸ö×Ö·û
+	str2.append(str2, 0, 2); // ï¿½ï¿½Ê¼Î»ï¿½Ã£ï¿½ï¿½ï¿½È¡ï¿½ï¿½ï¿½È£ï¿½ï¿½ï¿½ï¿½ï¿½Õ¼2ï¿½ï¿½ï¿½Ö·ï¿½
 	cout << "str2 = " << str2 << endl;
 }
 
-// stringµÄ²éÕÒºÍÌæ»»
+// stringæŸ¥æ‰¾å’Œæ›¿æ¢
 void findString() {
 	string str1 = "abcdefgde";
-	int pos = str1.find("de"); // -1 Î´ÕÒµ½×Ö·û´®»ò×Ö·û
+	int pos = str1.find("de"); // -1 Î´ï¿½Òµï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½
 	cout << "pos: " << pos << endl;
 
-	// rfind ÊÇ´ÓÓÒÍù×ó²é£¬find ÊÇ´Ó×óµ½ÓÒ
-	pos = str1.rfind("de"); // -1 Î´ÕÒµ½×Ö·û´®»ò×Ö·û
+	// rfind ï¿½Ç´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é£¬find ï¿½Ç´ï¿½ï¿½ï¿½ï¿½ï¿½
+	pos = str1.rfind("de"); // -1 Î´ï¿½Òµï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½
 	cout << "pos: " << pos << endl;
 }
 void replaceString() {
 	string str1 = "abcdefgde";
-	str1.replace(1, 3, "1111"); // Î»ÖÃ£¬³¤¶È£¬Ìæ»»µÄÄÚÈÝ
-	// ÏÈÉ¾³ý£¬ºóÈ«²¿Ìí¼Ó½øÈ¥
+	str1.replace(1, 3, "1111"); // Î»ï¿½Ã£ï¿½ï¿½ï¿½ï¿½È£ï¿½ï¿½æ»»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+	// ï¿½ï¿½É¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È«ï¿½ï¿½ï¿½ï¿½ï¿½Ó½ï¿½È¥
 	cout << "str1: " << str1 << endl;
 }
 
-// stringµÄ×Ö·û´®±È½Ï [-1, 0, 1]  <, =, >
+// stringï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½È½ï¿½ [-1, 0, 1]  <, =, >
 void compareString() {
 	string str1 = "abcdefg";
 	int cop = str1.compare("abcdefg");
@@ -100,7 +100,7 @@ void compareString() {
 	cout << "cop: " << cop << endl;
 }
 
-// stringµÄ´æÈ¡ []  at(int)
+// stringï¿½Ä´ï¿½È¡ []  at(int)
 void atString() {
 	string str1 = "abcdefg";
 	cout << "str1[2] " << str1[2] << endl;
@@ -108,7 +108,7 @@ void atString() {
 	cout << "str1[2] " << str1.at(2) << endl;
 }
 
-// stringµÄ²åÈëºÍÉ¾³ý erase
+// stringï¿½Ä²ï¿½ï¿½ï¿½ï¿½É¾ï¿½ï¿½ erase
 void insertString() {
 	string str = "abcdefg";
 	str.insert(0, "xxxx");
@@ -118,7 +118,7 @@ void insertString() {
 	cout << "str:  " << str << endl;
 }
 
-// ×Ó´®»ñÈ¡
+// ï¿½Ó´ï¿½ï¿½ï¿½È¡
 void substrString() {
 	string str = "abcdefg";
 
