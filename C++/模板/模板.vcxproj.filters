@@ -92,5 +92,41 @@
     <ClCompile Include="55-deque容器 - 204-209.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="56-stack容器 - 211-212.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="57-queue容器 - 213-214.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="58-list容器 - 215-222.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="59-set容器 - 223 - 230.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="60-map容器 - 231-235.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="61-函数对象 - 237-242.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="62-常用遍历算法 - 243-245.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="63-常用查找算法 - 246-250.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="64-常用排序算法 - 251-254.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="65-常用拷贝和替换算法 - 255-258.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="66-常用算术生成算法 - 259-260.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="67-常用集合算法 - 261-263.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -6,4 +6,7 @@
 //extern void test52();
 //extern void test53();
 //extern void test54();
-extern void test55();
+//extern void test55();
+//extern void test56();
+//extern void test57();
+extern void test58();

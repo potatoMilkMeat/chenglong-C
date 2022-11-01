@@ -69,10 +69,21 @@ int main() {
 	//cout << "\n **** \tµÚ54-vectorÈİÆ÷-197-203" << endl;
 	//test54();
 
-	cout << "\n **** \tµÚ55-dequeÈİÆ÷ - 204-209" << endl;
-	test55();
+	//cout << "\n **** \tµÚ55-dequeÈİÆ÷ - 204-209" << endl;
+	//test55();
+
+	//cout << "\n **** \tµÚ56-stackÈİÆ÷ - 211-212" << endl;
+	//test56();
+
+	//cout << "\n **** \tµÚ57-queueÈİÆ÷ - 213-214" << endl;
+	//test57();
+
+	cout << "\n **** \tµÚ58-listÈİÆ÷ - 215-222" << endl;
+	test58();
+
 
 	cout << "\n **** \tµÚ" << endl;
+
 
 	cout << "\n **** \tµÚ" << endl;
 
