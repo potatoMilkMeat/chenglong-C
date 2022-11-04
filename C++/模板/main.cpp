@@ -78,12 +78,12 @@ int main() {
 	//cout << "\n **** \tµÚ57-queueÈİÆ÷ - 213-214" << endl;
 	//test57();
 
-	cout << "\n **** \tµÚ58-listÈİÆ÷ - 215-222" << endl;
-	test58();
+	//cout << "\n **** \tµÚ58-listÈİÆ÷ - 215-222" << endl;
+	//test58();
 
 
-	cout << "\n **** \tµÚ" << endl;
-
+	cout << "\n **** \tµÚ59-setÈİÆ÷ - 223 - 230" << endl;
+	test59();
 
 	cout << "\n **** \tµÚ" << endl;
 

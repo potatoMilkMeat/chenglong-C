@@ -9,4 +9,5 @@
 //extern void test55();
 //extern void test56();
 //extern void test57();
-extern void test58();
+//extern void test58()
+extern void test59();
