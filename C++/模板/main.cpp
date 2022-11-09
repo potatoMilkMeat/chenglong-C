@@ -82,10 +82,24 @@ int main() {
 	//test58();
 
 
-	cout << "\n **** \t第59-set容器 - 223 - 230" << endl;
-	test59();
+	//cout << "\n **** \t第59-set容器 - 223 - 230" << endl;
+	//test59();
+
+	//cout << "\n **** \t第60-map容器 - 231-235" << endl;
+	//test60();
+
+	cout << "\n **** \t第61-函数对象 - 237-242" << endl;
+	test61();
 
 	cout << "\n **** \t第" << endl;
+
+	cout << "\n **** \t第" << endl;
+
+	cout << "\n **** \t第" << endl;
+
+	cout << "\n **** \t第" << endl;
+
+
 
 	system("pause");
 	return 0;
