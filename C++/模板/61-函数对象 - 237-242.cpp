@@ -119,21 +119,45 @@ void SsFn() {
 
 // 关系仿函数 关系对比
 // 等于 equal_to     不等于 not_equal_to     大于 greater     大于等于 greater_equal    小于 less    小于等于 less_equal
+void printB(vector<bool>& b) {
+	for (vector<bool>::iterator it = b.begin(); it != b.end(); it++) {
+		cout << *it << "  ";
+	}
+	cout << endl;
+}
 void GxFn() {
 	equal_to<int> a;
 	greater<char> b;
 	cout << "等于： " << a(5, 5) <<endl;
 
 	cout << "大于： " << b('a', 'b') << endl;
+
+	vector<int> v;
+	v.push_back(10); v.push_back(30); v.push_back(20); v.push_back(50); v.push_back(40);
+	sort(v.begin(), v.end(), greater<int>());
+	printV(v);
 }
 
 
 // 逻辑仿函数
+// 与 logical_and    或 logical_or    非 logical_not
+void LjFn() {
+	vector<bool> v;
+	v.push_back(true); v.push_back(false); v.push_back(true); v.push_back(false);
+	printB(v);
+
+	vector<bool> v2;
+	v2.resize(v.size());
+	transform(v.begin(), v.end(), v2.begin(), logical_not<bool>());
+	printB(v2);
+}
+
 
 
 void test61() {
 	//initFn();
 	//WeiciFn();
 	//SsFn();
-	GxFn();
+	//GxFn();
+	LjFn();
 }
