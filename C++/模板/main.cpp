@@ -94,21 +94,20 @@ int main() {
 	//cout << "\n **** \t第62-常用遍历算法 - 243-245" << endl;
 	//test62();
 
-	cout << "\n **** \t第63-常用查找算法 - 246-250" << endl;
-	test63();
+	//cout << "\n **** \t第63-常用查找算法 - 246-250" << endl;
+	//test63();
 
-	cout << "\n **** \t第" << endl;
+	//cout << "\n **** \t第64-常用排序算法 - 251-254" << endl;
+	//test64();
 
-	cout << "\n **** \t第" << endl;
+	//cout << "\n **** \t第65-常用拷贝和替换算法 - 255-258" << endl;
+	//test65();
 
+	//cout << "\n **** \t第66-常用算术生成算法 - 259-260" << endl;
+	//test66();
 
-	cout << "\n **** \t第" << endl;
-
-	cout << "\n **** \t第" << endl;
-
-	cout << "\n **** \t第" << endl;
-
-
+	cout << "\n **** \t第67-常用集合算法 - 261-263" << endl;
+	test67();
 
 	system("pause");
 	return 0;

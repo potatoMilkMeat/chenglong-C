@@ -14,4 +14,8 @@
 //extern void test60();
 //extern void test61();
 //extern void test62();
-extern void test63();
+//extern void test63();
+//extern void test64();
+//extern void test65();
+//extern void test66();
+extern void test67();
